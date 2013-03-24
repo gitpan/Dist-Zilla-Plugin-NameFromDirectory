@@ -1,0 +1,14 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+README
+cpanfile
+dist.ini
+lib/Dist/Zilla/Plugin/NameFromDirectory.pm
+t/00-compile.t
+t/dir.t
+t/dist/placeholder
+t/release-pod-syntax.t

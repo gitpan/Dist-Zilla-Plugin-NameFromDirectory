@@ -1,0 +1,23 @@
+---
+abstract: 'Guess distribution name from the current directory'
+author:
+  - 'Tatsuhiko Miyagawa <miyagawa@bulknews.net>'
+build_requires:
+  Test::More: 0.88
+configure_requires:
+  Module::Build::Tiny: 0.013
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300031, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dist-Zilla-Plugin-NameFromDirectory
+requires:
+  Dist::Zilla: 4.3
+  perl: 5.008001
+resources:
+  bugtracker: https://github.com/miyagawa/Dist-Zilla-Plugin-NameFromDirectory/issues
+  homepage: https://github.com/miyagawa/Dist-Zilla-Plugin-NameFromDirectory
+  repository: https://github.com/miyagawa/Dist-Zilla-Plugin-NameFromDirectory.git
+version: 0.01

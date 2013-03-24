@@ -20,4 +20,4 @@ resources:
   bugtracker: https://github.com/miyagawa/Dist-Zilla-Plugin-NameFromDirectory/issues
   homepage: https://github.com/miyagawa/Dist-Zilla-Plugin-NameFromDirectory
   repository: https://github.com/miyagawa/Dist-Zilla-Plugin-NameFromDirectory.git
-version: 0.01
+version: 0.02

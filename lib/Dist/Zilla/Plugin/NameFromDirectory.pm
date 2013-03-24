@@ -1,17 +1,16 @@
 package Dist::Zilla::Plugin::NameFromDirectory;
 use 5.008_001;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Moose;
 with 'Dist::Zilla::Role::NameProvider';
 
-use Cwd;
 use Path::Class;
 
 sub provide_name {
     my $self = shift;
 
-    my $root = dir(Cwd::cwd);
+    my $root = $self->zilla->root->absolute;
 
     # make sure it is a root dir, by checking -e dist.ini
     return unless -e $root->file('dist.ini');
